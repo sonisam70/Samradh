@@ -23,3 +23,12 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+function demo()
+{
+d=new Date();
+document.getElementById('h').innerHTML=d.getHours();
+document.getElementById('m').innerHTML=d.getMinutes();
+document.getElementById('s').innerHTML=d.getSeconds();
+
+setTimeout("demo()",1000)
+}
