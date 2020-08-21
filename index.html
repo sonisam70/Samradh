@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <title>Samradh's Portfolio</title>
 </head>
-<body>
+<body onload="demo()">
   <!-- Header -->
   <section id="header">
     <div class="header container">
@@ -23,24 +23,39 @@
 			<li><a href="#certificate" data-after="certificate">Certification</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
+			<li> 
+			<div id="p1">
+<font id="h"></font>:
+<font id="m"></font>:
+<font id="s"></font>
+</div>
+			
+			</li>
           </ul>
         </div>
       </div>
     </div>
+	
   </section>
   <!-- End Header -->
 
 
   <!-- Hero Section  -->
-  <section id="hero">
+  <section id="hero"><br><br><br><br><br><br>
+  <marquee id="mar" direction="right">Graduate soonly- 2021 </marquee>
+  <marquee id="mar1">Currently in Technocolabs Indore as Intern on Data Science </marquee>
     <div class="hero container">
+	
       <div>
         <h1>Hello, <span></span></h1>
         <h1>My Name is <span></span></h1>
         <h1>Samradh Soni<span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
+        <a href="#" type="button" class="cta">Portfolio</a> 
+		<marquee id="mar" direction="right">Open for Internship </marquee>
       </div>
     </div>
+	
+
   </section>
   <!-- End Hero Section  -->
 
@@ -76,17 +91,36 @@
 		<div class="service-item">
           <div class="icon"><img src="https://img.icons8.com/wired/64/000000/communication-skill.png"/></div>
           <h2>Skills</h2>
-		  <p>
-		  <h3>C/C++</h3>
-		  <h3>Core Java</h3>
-		  <h3>Python</h3>
-		  <h3>HTML</h3>
-		  <h3>CSS</h3>
-		  <h3>Operating System</h3>
-		  <h3>Database Management System(Mysql)</h3>
-		  </p>
+		  <ul id="tra">
+		  <li>C/C++</li>
+		  <li>Core Java</li>
+		  <li>Python</li>
+		  <li>HTML</li>
+		  <li>CSS</li>
+		  <li>Operating System</li>
+		  <li>Database Management System(Mysql)</li>
+		  </ul>
         </div>
-		
+	
+	<div class="service-item">
+          <div class="icon"><img src="./img/student.jpg"/></div>
+          <h2>Training</h2>
+		  <ul id="tra">
+		  <li>Webtek Labs Pvt Ltd -"Data Science using Python"</li>
+		  <li>IIEC-RISE -"Python" </li>
+		  </ul>
+        </div>
+	<div class="service-item">
+          <div class="icon"><img src="./img/admin.jpg"/></div>
+          <h2>Internship</h2>
+		  <ul id="tra">
+		  <li>Technocolabs Indore -"Data Science"</li>
+		  <li>PankajSirAcademy -"Java Intern"</li>
+		  </ul>
+        </div>
+	
+	
+	
 		
 		
       </div>
@@ -171,63 +205,71 @@ http://samradhsoni70.pythonanywhere.com/</p>
 
   <!-- Certificate Section-->
   <section id="certificate">
-    <div class=" certificate container">
-        <h1 class="section-title">Certification</h1>
-<div class="container1">
+  <div class=" certificate container">
+<div id="data1">
+<h1 id="cer1"><center>CERTIFICATIONS</center></h1>
+<ul id="cer2"> 
+<li>TSCION Career Edge-Knockdown the Lockdown </li>
+<li>Big Data Technology-(SVIIT) associate with Ardent Computech Pvt.Ltd.</li>
+<li>Machine Learning and AI- RoboTech labs Pvt.Ltd ,IIT Indore </li>
+<li>TATA TPDSI "Essential Skills for Jobs in a Covid 19</li>
+<li>SoloLearn-Python3 </li>
+<li>LinkedIn-Database Foundation </li>
+<li>LinkedIn-Introduction to DS </li>
+<li>LinkedIn-IoT Foundation,Operating System </li>
+<li>LinkedIn-Learning Excle 2019 </li>
+<li>LinkedIn-MySQL Essential training </li>
+<li>LinkedIn-Python for Data Science </li>
+<li>Introduction to Cloud Computing with Azure -Microsoft Student Partner </li>
+<li>Packt-Java </li>
+<li>Introduction to Cyber Security- Cisco Networking </li>
+<li>Engineering:Virtual Internship Platform Microsoft </li>
+<li>Digital Marketing- Coding Block </li>
+<li>SVVV with TCS -"Agile Software Developments" </li>
+<li>SVVV with TCS -"DevOps" </li>
+<li>SVVV-Introduction to Information and Cyber Security</li>
+<li>SVVV-Build a AI based ChatBot using IBM Watson </li>
+<li>SVVV-Scope of IOT and mechatronics in Industries </li>
+<li>SVVV-Next Learning Path with Deep Learning</li>
+<li>SVVV-Blockchain Strategies</li>
+
+</ul>
+</div>
+		
+ <!-- <div class="container1">
 <div class="gallery">
 <img src="./certificate/c4.png">
 <div class="desc">TSCION Career Edge-Knockdown the Lockdown</div>
-</div>
-
-<div class="gallery">
+</div><div class="gallery">
 <img src="./certificate/c1.png">
 <div class="desc">SVVV-Introduction to Information and Cyber Security</div>
-</div>
-
-
-<div class="gallery">
+</div><div class="gallery">
 <img src="./certificate/c3.png">
 <div class="desc">SVVV-Build a AI based ChatBot using IBM Watson</div>
-</div>
-
-
-
-<div class="gallery">
+</div><div class="gallery">
 <img src="./certificate/c5.png">
 <div class="desc">TATA TPDSI</div>
-</div>
-
-<div class="gallery">
+</div><div class="gallery">
 <img src="./certificate/c6.png">
 <div class="desc">SoloLearn-Python3</div>
-</div>
-
-
-
-<div class="gallery">
+</div><div class="gallery">
 <img src="./certificate/c8.png">
 <div class="desc">LinkedIn-Database Foundation</div>
 </div>
 <div class="gallery">
 <img src="./certificate/c9.png">
 <div class="desc">LinkedIn-Introduction to DS</div>
-</div>
-
-<div class="gallery">
+</div><div class="gallery">
 <img src="./certificate/c10.png">
 <div class="desc">LinkedIn-IoT Foundation,Operating System</div>
-</div>
-
-<div class="gallery">
+</div><div class="gallery">
 <img src="./certificate/c11.png">
 <div class="desc">LinkedIn-Learning Excle 2019</div>
 </div>
 <div class="gallery">
 <img src="./certificate/c12.png">
 <div class="desc">LinkedIn-MySQL Essential training</div>
-</div>
-
-<div class="gallery">
+</div><div class="gallery">
 <img src="./certificate/c13.png">
 <div class="desc">LinkedIn-Python for Data Science</div>
 </div>
@@ -268,8 +310,11 @@ http://samradhsoni70.pythonanywhere.com/</p>
 </div>
 
 
-</div>
-</div>
+</div>-->
+
+
+
+</div> 
   </section>
   
     
@@ -284,7 +329,7 @@ http://samradhsoni70.pythonanywhere.com/</p>
       </div>
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
-        <h2>Python Developer</h2>
+        <h2>Python Developer || Data Analyst || Data Science || Web Development</h2>
         <p>I am Samradh Soni student of Shri Vaishnav Vidhyapeeth Vishwavidayala,Indore.I am pursuing B.Tech from Computer Science Engineering. I have done my minor project work when i was in 3rd year .
 
 I have done many online courses and learned from it and earned certificates.
