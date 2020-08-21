@@ -12,12 +12,35 @@ html {
 a {
 	text-decoration: none;
 }
+#mar{
+	color:cyan;
+	font-family:Times New Roman;
+	font-style:italic;
+	font-size:24px;
+	
+}
+#mar1{
+	color:white;
+	font-family:Times New Roman;
+	font-style:italic;
+	font-size:24px;
+	
+}
+#p1
+{
+color:white;
+width:100px;
+font-size:20px;
+font-style:italic;
+}
+
 .container {
 	min-height: 100vh;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 }
 img {
 	height: 100%;
@@ -141,6 +164,7 @@ p {
 }
 #header .nav-list ul li:hover a {
 	color: crimson;
+	font-size:17px;
 }
 #header .hamburger {
 	height: 60px;
@@ -222,7 +246,7 @@ p {
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
-	font-style:italic; 	             
+	font-style:italic;	
 }
 #hero h1 {
 	display: block;
@@ -509,20 +533,52 @@ p {
 #certificate.certificate-item:hover .certificate-img img {
 	transform: scale(1.1);
 }
-
+#data1
+ {	
+width:97%;
+height:800px;
+background-color:rgba(0,0,0,0.5);
+float:left;
+margin-left:25px;
+margin-top:10px;
+border-radius:12px;
+box-shadow:5px 5px 5px black;
+ }
+#tra{
+	color:white;
+	font-family:Times New Roman;
+	font-style:italic;
+	font-size:20px;
+}
+ #cer1{
+	 font-size:42px;
+	 color:cyan;
+	 font-style:italic;
+	 font-family:Times New Roman;
+ }
+#cer2
+{
+margin-top:15px;
+margin-left:30px;	
+color:white;
+font-style:italic;
+font-size:24px;
+font-family:Times New Roman;	
+}
 .container1{
     max-width:1400px;
 	margin:auto;
 	overflow:auto;
 }
 .gallery{
-	margin:8px;
+	margin:12px;
 	border:1px solid #ccc;
 	float:left;
-	width:350px;
+	width:400px;
+	padding:10px
 	}
 .gallery img{
-	width:350px;
+	width:400px;
 	height:350px;
 }
 .desc{
